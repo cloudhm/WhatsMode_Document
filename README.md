@@ -30,5 +30,7 @@
 |---|---|
 |{scheme}://{host}/.../message|消息列表|
 
-#####需要手动嵌入Cookie进webview
-`Set-Cookie: token=${token}; Domain=.socialeras.com; Path=/; language=${language}; currencyCode=${currencyCode}; countryCode=${countryCode}; clinetId=${UUID_String};`
+<h5>需要手动嵌入Cookie进webview</h5>
+<pre>
+Set-Cookie: token=${token}; Domain=.socialeras.com; Path=/; language=${language}; currencyCode=${currencyCode}; countryCode=${countryCode}; clinetId=${UUID_String};
+</pre>
