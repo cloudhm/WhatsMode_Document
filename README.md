@@ -8,7 +8,7 @@
 
 | Event Name | Parameters | Remarks | 
 |---|---|---|
-| share | `title, img_url, description, share_url` | 分享 |
+| share | `title, img_url, description, share_url, product_id` | 分享 |
 | pay | `order_id` | 支付|
 | add_cartItem | `variant_id, quantity` | 加购 |
 | buy_now | `variant_id, quantity` | 立即购买 |
