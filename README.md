@@ -12,10 +12,8 @@
 | pay | order_id | 支付|
 | add_cartItem | variant_id, quantity | 加购 |
 | buy_now | variant_id, quantity | 立即购买 |
-| product | 解析url: 规则 {scheme}://{host}/.../product/{product_id}?uid={user_id}&i={influencer_id}&...{other_parameters} |商品详情|
-| order | 解析url: 规则 {scheme}://{host}/.../order/detail/{order_id} |订单详情|
-| collection | 解析url: 规则 {scheme}://{host}/.../collection/list?collectionId={collection_id} |活动的商品列表|
 | login | | 登录/注册|
+| openURL | <pre>商品详情URL规则 {scheme}://{host}/.../product/{product_id}?uid={user_id}&i={influencer_id}&...{other_parameters}<br/>订单详情解析URL规则 {scheme}://{host}/.../order/detail/{order_id}<br/>活动商品列表URL规则 {scheme}://{host}/.../collection/list?collectionId={collection_id}</pre> |<pre>商品详情<br/>订单详情<br/>活动商品列表</pre>|
 
 ### Native call JS
 `eval("callByApp({"event_name":${event_name}, ${other_parameters}})")`
