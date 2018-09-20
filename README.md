@@ -44,4 +44,5 @@ Set-Cookie: token=${token}; Domain=.socialeras.com; Path=/; language=${language}
 |商品列表-标签|<pre>path: /product<br/>query: fq=work_tags:{tag}</pre>||
 |商品列表-网红|<pre>path: /product<br/>query: fq=userId_ls:{influencerId}</pre>||
 |商品列表-分类|<pre>path: /product<br/>query: fq=categoryId_l:{categoryId}</pre>|多分类<pre>eg:<br/>fq=categoryId_l:{categoryId_1},categoryId_l:{categoryId_2}</pre>|
+|商品列表-自定义分类|<pre>path: /product<br/>query: categoriesId={id}</pre>||
 |订单详情|<pre>path: /order/detail/{order_id}</pre>||
