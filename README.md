@@ -3,6 +3,9 @@
 | Window Property | iOS  | Android |
 |---|---|---|
 |User-Agent|WhatsMode-iOS|WhatsMode-Android|
+* 注意UA需要拼接，并不是简单设置。
+`format: ${Origin UserAgent} ${New UserAgent}/${App Version}`
+`eg: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15 WhatsMode-iOS/1.0.0`
 
 ### JS call Native
 
